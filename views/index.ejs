@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CarCell | Home</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+<%- include('nav')%>
+  <!-- Hero Section -->
+  <header class="bg-cover bg-center h-[550px]" style="background-image: url('https://imgs.search.brave.com/rfT5_xk68NGrG0wJcVwW7L3jVN0brO9cyAks6yrMuVE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAzLzEyLzE4LzYz/LzM2MF9GXzMxMjE4/NjM1N19kakFMeGY1/dU1DVkRUb1VibXVl/eG9EejQ5OUhkY3Jq/Ni5qcGc');">
+    <div class="bg-black bg-opacity-50 h-full flex items-center justify-center">
+      <div class="text-center text-white">
+        <h1 class="text-5xl font-bold mb-4">Find Your Dream Car</h1>
+        <p class="text-xl mb-6">Best deals, quality cars, and unbeatable prices.</p>
+        <a href="/cars" class="bg-orange-500 hover:bg-yellow-700 text-white font-bold py-3 px-6 rounded-full transition">
+          View Cars
+        </a>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
